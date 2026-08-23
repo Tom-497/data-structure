@@ -25,7 +25,9 @@ int main() {
     // 建边 无向图，双向加边
     adj[0].push_back(1);
     adj[1].push_back(0);
-
+    adj[0].push_back(2);
+    adj[2].push_back(0);
+ 
 
     visited.assign(n, false);
     cout << "DFS遍历结果：";
