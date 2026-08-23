@@ -36,3 +36,9 @@ int getMultiTreeLevelBFS(Node* root){
     }
     return level;
 }
+
+
+int main()
+{
+    return 0;
+}
